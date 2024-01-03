@@ -40,7 +40,8 @@ body {
 .transaction-details,
 .loan-details,
 .repayment-info,
-.payment-details {
+.payment-details,
+.signature {
     margin-bottom: 15px;
 }
 
@@ -57,4 +58,9 @@ body {
 
 .footer p {
     margin: 0;
+}
+.digital-signature-placeholder {
+    height: 50px; /* Adjust the height based on your design */
+    border-bottom: 2px solid #555;
+    margin-top: 10px;
 }
